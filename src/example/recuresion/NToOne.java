@@ -1,12 +1,12 @@
-package example;
+package example.recuresion;
 
-public class RecursionPractice_1_to_N {
+public class NToOne {
     public static void fun(int n){
-        if (n == 0){
+        if(n == 0)
             return;
-        }
+
+        System.out.println(n);
         fun(n-1);
-        System.out.println( n);
     }
 
     public static void main(String[] args){

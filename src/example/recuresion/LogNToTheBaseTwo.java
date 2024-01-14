@@ -1,6 +1,6 @@
-package example;
+package example.recuresion;
 
-public class RecursionPractice_log_n_to_the_base_2 {
+public class LogNToTheBaseTwo {
 
     public static int fun (int n){
         if(n == 1)
